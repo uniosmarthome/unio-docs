@@ -3,7 +3,7 @@ module.exports = {
   title: 'UNIO Smart Home',
   tagline: 'UNIO Smart Home Documentation',
   url: 'https://uniosmarthome.github.io',
-  baseUrl: '/',
+  baseUrl: '/unio-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
