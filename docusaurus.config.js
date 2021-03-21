@@ -2,8 +2,8 @@
 module.exports = {
   title: 'UNIO Smart Home',
   tagline: 'UNIO Smart Home Documentation',
-  url: 'https://docs.uniosmarthome.com',
-  baseUrl: '/',
+  url: 'https://uniosmarthome.github.io',
+  baseUrl: '/unio-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -23,7 +23,17 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Documentação',
+          position: 'left',
+        },
+        {
+          to: 'https://loja.uniosmarthome.com',
+          label: 'Loja',
+          position: 'left',
+        },
+        {
+          to: 'https://hotmart.com',
+          label: 'Cursos',
           position: 'left',
         },
       ],
@@ -82,7 +92,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/uniosmarthome/unio-docs/edit/main/website/',
+            'https://github.com/uniosmarthome/unio-docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
