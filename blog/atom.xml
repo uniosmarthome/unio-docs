@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://uniosmarthome.github.io/blog</id>
+    <title>UNIO Smart Home Blog</title>
+    <updated>2015-10-25T23:29:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://uniosmarthome.github.io/blog"/>
+    <subtitle>UNIO Smart Home Blog</subtitle>
+    <icon>https://uniosmarthome.github.io/img/favicon.ico</icon>
+</feed>
